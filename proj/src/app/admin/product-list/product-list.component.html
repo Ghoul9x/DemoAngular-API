@@ -1,0 +1,28 @@
+<h2>Danh sách sản phẩm</h2>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Sale price</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pro of products">
+            <td>{{pro.id}}</td>
+            <td>{{pro.name}}</td>
+            <td>{{pro.price}}</td>
+            <td>{{pro.sale_price}}</td>
+            <td>
+                <img src="{{pro.image}}" alt="" width="60px">
+            </td>
+            <td>
+                <a [routerLink]="['/product-edit', pro.id]" class="btn btn-sm btn-primary mr-1">Sửa</a>
+                <a href="javascript:void()" (click)="onDelete(pro.id)" class="btn btn-sm btn-danger">Xoá</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

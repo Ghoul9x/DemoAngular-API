@@ -1,0 +1,41 @@
+{
+  "banner": [
+    {
+      "id": 1,
+      "name": "Banner 1",
+      "image": "https://cemhri.org/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image.png"
+    },
+    {
+      "id": 2,
+      "name": "Banner 2",
+      "image": "https://png.pngtree.com/thumb_back/fh260/back_pic/02/50/63/71577e1cf59d802.jpg"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "cat 1"
+    },
+    {
+      "id": 2,
+      "name": "cat 2"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "prod 1",
+      "price": 500000,
+      "sale_price": 450000,
+      "category_id": 1,
+      "image": "https://uqoojcos5nobj.vcdn.cloud/uploads/2021/11/samsung-black-galaxy-s21-fe-5.jpg"
+    },
+    {
+      "name": "1",
+      "price": 600000,
+      "sale_price": 550000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/236780/iphone-13-mini-pink-1-600x600.jpg",
+      "id": 2
+    }
+  ]
+}
